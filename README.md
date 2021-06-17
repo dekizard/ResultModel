@@ -1,1 +1,1 @@
-# ResultModel
+Result Model for .NET applications

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>API response model</Description>
+    <PackageTags>Response Result</PackageTags>
+    <Product>Result model</Product>
+    <Authors>ResultModel</Authors>
+    <Company>ResultModel</Company>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+</Project>
