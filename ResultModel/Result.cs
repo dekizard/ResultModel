@@ -21,12 +21,12 @@ namespace ResultModel
         /// <summary>
         /// Message
         /// </summary>
-        public Message Message { get; private set; }
+        public Message Message { get; init; }
 
         /// <summary>
         /// Messages
         /// </summary>
-        public List<Message> Messages { get; private set; } = new List<Message>();
+        public List<Message> Messages { get; init; } = new List<Message>();
 
         public Result()
         {
@@ -87,7 +87,7 @@ namespace ResultModel
         /// <summary>
         /// Data
         /// </summary>
-        public T Data { get; private set; }
+        public T Data { get; init; }
 
         public Result()
         {
