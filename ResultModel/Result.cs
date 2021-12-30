@@ -10,13 +10,7 @@ namespace ResultModel
         /// <summary>
         /// Success
         /// </summary>
-        public bool Success
-        {
-            get
-            {
-                return string.IsNullOrEmpty(Message?.Text);
-            }
-        }
+        public bool Success => string.IsNullOrEmpty(Message?.Text);
 
         /// <summary>
         /// Message
